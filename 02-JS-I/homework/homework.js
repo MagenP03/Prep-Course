@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  str = 'EAAAAAAAA'
+  str = 'Henry'
   return str;
 }
 
@@ -78,11 +78,13 @@ function sonIguales(k, l) {
   }
 }
 
-function tienenMismaLongitud(murcielago, murciegalo) {
+function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return murcielago.lenght === murciegalo.lenght;
+  str1 = murcielago
+  str2 = murciegalo
+  return str1.lenght === str2.lenght;
 }
 
 function menosQueNoventa(num) {
@@ -176,8 +178,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  esPositivo = numero > 0;
-  if(numero === 0) {
+  if(numero > 0) {
     return "Es positivo";
   } else if (numero < 0){
     return "Es negativo"
@@ -205,6 +206,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
+  nombre = "Rigoberto"
   return 'Hola ' + nombre + '!';
 }
 
