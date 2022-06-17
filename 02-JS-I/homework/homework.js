@@ -82,8 +82,8 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  str1 = murcielago
-  str2 = murciegalo
+  str1 = 'murcielago'
+  str2 = 'Emurciegalo'
   return str1.lenght === str2.lenght;
 }
 
@@ -206,7 +206,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  nombre = "Rigoberto"
+  nombre = "Martin"
   return 'Hola ' + nombre + '!';
 }
 
